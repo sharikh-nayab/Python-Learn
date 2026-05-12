@@ -166,6 +166,92 @@
 
 # Progressive Electricity Billing: 1-50 units: 0.50/u; 51-150: 0.75/u; 151-250: 1.20/u; Above
 # 250: 1.50/u. Add 20% surcharge to total.
-
-
-    
+# a=int(input("Enter "))
+# if a in range(1,51):
+#     a=a*0.5
+#     print("Bill 0.50u", a)
+# elif a in range(51,151):
+#     a=a*0.75
+#     print("0.75u", a)
+# elif a in range(151,251):
+#     a=a*1.20
+#     print("1.20u", a)
+# elif a > 250:
+#     a=a*1.50
+#     b=a*0.20
+#     a=a+b
+#     print("1.50",a)
+# else:
+#     print("Invalid")
+# Bitwise Sign Detection: Write a program that checks if two input integers have opposite
+# signs using the bitwise XOR operator
+# a=int(input("Enter "))
+# b=int(input("Enter "))
+# c=(a,",",b)
+# print(c[0],c[2])
+# if c[0] > 0:
+#     if c[2] < 0:
+#         print(True, "Opposite sign")
+#     else:
+#         print("same sign")
+# elif c[0] < 0:
+#      if c[2] > 0:
+#         print(True, "Opposite sign")
+#      else: 
+#         if c[0] < 0:
+#             if c[2] < 0:
+#                  print("Same -ve sign")
+# Arithmetic Menu: Build a calculator that takes two numbers and an operator (+, -, *, /) and
+# outputs the result using if-elif.
+# a=int(input("Enter "))
+# b=int(input("Enter "))
+# c=(input("Enter "))
+# if c == "/":
+#     print(a/b)
+# elif c== "+":
+#     print(a+b)
+# elif c=="*":
+#     print(a*b)
+# else:
+#     print(a-b)
+# Vowel/Consonant Switch: Determine if a character is a Vowel or Consonant. Ensure it
+# works for both lowercase and uppercase inputs.
+# a=(input("enter "))
+# b=["a", "e" , "i", "o", "u","A", "E", "I", "O", "U"]
+# c= False
+# for z in b:
+#     v= z==a
+#     # print(v)
+#     c= True
+# if c:
+#         print("Vowel found")
+# else:
+#         print("Constraint")
+# Quadratic Roots: Calculate roots of ax² + bx + c. Use comparison to handle Real, Equal,
+# and Imaginary roots based on Discriminant.
+# a=int(input("Enter "))
+# b=int(input("Enter "))
+# c=int(input("Enter "))
+# d=b**2-4*a*c
+# if d > 0:
+#     print("two roots")
+#     x1=-(b)+d**0.5
+#     x2=x1/2*a
+#     x3=-(b)-d**0.5
+#     x4=x3/2*a
+#     print("Roots", x3, x4)
+# elif d == 0 :
+#     print("roots are equal")
+#     x1=-(b)/2*a
+#     x2=-(b)/2*a
+#     print("Roots", x1, x2)
+# else:
+#     print("roots are imaginary")
+# Bitwise Multiplication: Multiply an input number by 16 using only Bitwise Shift operators
+# (Strictly no * operator).
+# a=int(input("enter "))
+# for i in range(4):
+#     a=a+a
+# print(a)
+        
+        
