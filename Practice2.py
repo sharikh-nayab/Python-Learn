@@ -241,3 +241,6 @@
 # for b in range(n - 2, 0, -2):
 #     print((" " * space) + ("*" * b))
 #     space = space + 1
+# ls=[10,20,30,40,50,45,34]
+# for i in range(0,len(ls)+1,2):
+#     print(ls[i])

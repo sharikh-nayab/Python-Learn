@@ -64,5 +64,107 @@
 # Count numbers from 100 to 1
 # for i in range(100,-1,1):
 #     print(i)
-
-    
+# Given a 2D list (matrix), calculate the sum of elements in each row separately.
+# Example:
+# a=[[1,2,3],[4,5,6],[7,8,9]]
+# for i in a :
+#     sm=0
+#     for z in i:
+#         sm=sm+z
+#     print(sm)
+# a=[[1,2,3],[4,5,6],[7,8,9]]
+# sm=0
+# zm=0
+# ym=0
+# for i in a:
+#     sm=sm+i[0]
+#     zm=zm+i[1]
+#     ym=ym+i[2]
+# print(sm)
+# print(zm)
+# print(ym)
+# a=[[1,2,3],[4,5,6],[7,8,9]]
+# sm=0
+# zm=0
+# ym=0
+# for i in a:
+#     b=i[0]
+#     c=i[1]
+#     d=i[2]
+#     sm=sm+b
+#     zm=zm+c
+#     ym=ym+d
+# print(sm,zm,ym)
+# Given a square matrix, calculate the sum of the main diagonal elements.
+# a=[[1,2,3],
+#    [4,5,6],
+#    [7,8,9]]
+# b=(a[0][0])
+# c=(a[1][1])
+# d=(a[2][2])
+# print(b+c+d)
+# sm=0
+# for i in range(len(a)):
+#     b=a[i][i]
+#     sm=sm+b
+# print(sm)
+a=[[1,2,3],
+ [4,5,6],
+ [7,8,9]]
+# b=a[0][2]
+# c=a[1][1]
+# d=a[2][0]
+# print(b+c+d)
+# sm=0
+# for i in range(len(a)):
+#     b=a[i][2-i]
+#     sm=sm+b
+# print(sm)
+# Fibonacci Triangle
+# Print a triangle pattern where numbers follow the Fibonacci sequence.
+# 1
+# 1 1
+# 2 3 5
+# 8 13 21 34
+# a=int(input("Enter "))
+# s=0
+# m=1
+# # print(m)
+# for i in range(1,a+1,1):
+#     for z in range(i):
+#         next=s+m
+#         s=m
+#         m=next
+#         print(next, end=" ")
+#     print()
+# Spiral Matrix Traversal
+# Given a matrix, print elements in spiral order.
+# a=[[1,2,3],
+#    [4,5,6],
+#    [7,8,9]]
+# b=a[0][0]
+# c=a[0][1]
+# d=a[0][2]
+# r=a[1][2]
+# t=a[2][2]
+# y=a[2][1]
+# u=a[2][0]
+# o=a[1][0]
+# p=a[1][1]
+# print(b,c,d,r,t,y,u,o,p)
+# a=int(input("Enter "))
+# for i in range(1,a+1):
+#     for z in range(1,i+1):
+#         print(z, end=" ")
+#     print()
+# a=int(input("enter "))
+# sm=0
+# for i in range(1,a+1,1):
+#     # print(i)
+#     for z in range(0,i,1):
+#         sm=sm+1
+#         print(sm, end=" ")
+#     print()
+# a=input("Enter ")
+# for i in range():
+#     print(i)
