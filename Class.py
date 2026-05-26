@@ -45,3 +45,9 @@
 # d={}
 # d['value']=d.get('value',0) +1
 # print(d)
+# n=int(input("enter "))
+# for i in range(n,n-1,-1):
+#     print(i)
+    # for j in range(n,n-1,-1):
+    #     print(end=" ",j)
+    # print()
