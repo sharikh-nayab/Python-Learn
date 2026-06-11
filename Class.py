@@ -51,3 +51,16 @@
     # for j in range(n,n-1,-1):
     #     print(end=" ",j)
     # print()
+
+# name=input("Enter ")
+# x=set(name)
+# for i in x:
+#     print(i,"comes",name.count(i),"times")
+# l=[10,5,3,True,"Hi"]
+# print(*l,sep="\n")
+# def dis(a,b):
+#     ans=a+b
+#     print(ans)
+# ans=dis(2,5)
+# print(ans)
+
