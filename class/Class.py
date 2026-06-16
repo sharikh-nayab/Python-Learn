@@ -64,3 +64,5 @@
 # ans=dis(2,5)
 # print(ans)
 
+s=len({True, 1,1.0})
+print(s)
