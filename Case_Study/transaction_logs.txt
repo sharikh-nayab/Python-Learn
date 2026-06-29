@@ -1,0 +1,7 @@
+TXN-99214 | 2026-06-24 | user.alpha@company.com | SUCCESS
+TXN-10523 | 2026-06-24 | neha@bcsbca.com | FAILED
+INVALID_ENTRY_ROW_NO_DATA
+TXN-88124 | 2026-06-24 | admin@logic-overflow.com | SUCCESS
+TXN-99214 | 2026-06-24 | user.alpha@company.com | SUCCESS
+TXN-30192 | 2026-06-24 | sales@bcsbca.com | SUCCESS
+,,,,,,,,,,,,,,,,TOTAL TAX OVERHEAD MARGINS = 622.15
